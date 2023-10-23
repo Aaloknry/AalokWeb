@@ -18,16 +18,18 @@ export default function Navbar(props) {
       <div className="navbar-nav">
         <ul className="nav-links">
 
-        {/* <li className="nav-link"><a href={ServicesSection}>Home</a></li>
-        <li className="nav-link"><a href={ServicesSection}>Physics</a></li>
-        <li className="nav-link"><a href={ServicesSection}>Engineering</a></li>
-        <li className="nav-link"><a href={ServicesSection}>About</a></li> */}
+        <li className="nav-link">
+          <a href="/">Home</a></li>
+        <li className="nav-link">
+          <a href="/">Physics</a></li>
+        <li className="nav-link">
+          <a href="/">About</a></li>
         
         </ul>
       </div>
     </div>
     <form class="d-flex">
-    <button class="btn btn-outline-success me-2" type="button">{props.b1}</button>
+    <button to="/" class="btn btn-outline-success me-2" type="button">{props.b1}</button>
     <button class="btn btn-sm btn-outline-secondary" type="button">{props.b2}</button>
   </form>
   </div>

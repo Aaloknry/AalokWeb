@@ -15,14 +15,14 @@ const ServicesSection = () => {
         
       },
     },
-    {
-      title: 'B.Tech Engineering',
-      imageSrc: '2.png',
-      description: 'Get the necessary files Just In a Click',
-      link: () => {
-        Engineering()
-      },
-    },
+    // {
+    //   title: 'B.Tech Engineering',
+    //   imageSrc: '2.png',
+    //   description: 'Get the necessary files Just In a Click',
+    //   link: () => {
+    //     Engineering()
+    //   },
+    // },
     // Add more service data here...
   ]);
 
@@ -34,7 +34,7 @@ const ServicesSection = () => {
         imageSrc: '1.png',
         description: 'Get the necessary files Just In a Click',
         link: () => {
-          window.location.href = 'https';
+          SemI()
         },
       },
       {
@@ -42,7 +42,7 @@ const ServicesSection = () => {
         imageSrc: '1.png',
         description: 'Get the necessary files Just In a Click',
         link: () => {
-          window.location.href = 'https';
+          SemII()
         },
       },
       {
@@ -50,7 +50,7 @@ const ServicesSection = () => {
         imageSrc: '1.png',
         description: 'Get the necessary files Just In a Click',
         link: () => {
-          window.location.href = 'https';
+          SemIII()
         },
       },
       {
@@ -85,6 +85,221 @@ const ServicesSection = () => {
 
 
 
+
+
+  const SemI = () => {
+    setTitle('BSc [H] Physics - SEM-I');
+    setServicesData([
+      {
+        title: 'STR',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/13J04tKLdURJDAxzLW_7sGXTemoN3B_yy?usp=drive_link';
+        },
+      },
+      {
+        title: 'Chem',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1Infh0uWvcWENfFy-Pp087wbzo2Nf3dR-?usp=drive_link';
+        },
+      },
+      {
+        title: 'Mechanics',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1qCCg73A2qlgZCCHkRElQwaXDyoUd3k_p?usp=drive_link';
+        },
+      },
+      {
+        title: 'Wave & Oscillation',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1wOk2NB6D_2kfya7E4Xy0GlanM_X8f1jE?usp=drive_link';
+        },
+      },
+      {
+        title: 'Applied Mathematics-III',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1Pw07y_chNfHplvt60oH4dBOSb93DRO4A?usp=drive_link';
+        },
+      },
+      {
+        title: 'PY-QPaper',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1znTktrbLVuNgf7rlri-ZPWMh4SXQcGBg?usp=drive_link';
+        },
+      },
+      {
+        title: 'Physics Lab-I',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1aCrfeKycsPWBUNzLy8YXLWeM7nHCAFT6?usp=drive_link';
+        },
+      },
+      {
+        title: 'Misc',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1HwOyQQyXgj9eUfNAuKa1ng0PiT-SKp-W?usp=drive_link';
+        },
+      },
+      
+      // Add more service data here...
+    ]);
+  };
+
+
+
+
+  const SemII = () => {
+    setTitle('BSc [H] Physics - SEM-II');
+    setServicesData([
+      {
+        title: 'AC-II Organic Chemistry',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1fnMfQ8-g9zFEvkIwG7Ru2RTyOflQGAZz?usp=drive_link';
+        },
+      },
+      {
+        title: 'AM-II Linear Algebra',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/10RJeVHLtJsFefz8hOXXjrEKy-eCQuxW5?usp=drive_link';
+        },
+      },
+      {
+        title: 'Mathematical Physics-I',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1Wz9vCSDEn4S-JHUzNZqjxr_qm6Vejczl?usp=drive_link';
+        },
+      },
+      {
+        title: 'Optics',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1o0sAT-Bn9Ei-C7l_YltrRi8gQItuei8Y?usp=drive_link';
+        },
+      },
+      {
+        title: 'Thermodynamics',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1HUrRxj8iqnFcYFPSq0NRkfFcs-7rhGEo?usp=drive_link';
+        },
+      },
+      {
+        title: 'PY-QPaper',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1yxbktqTLRJKWYWJNuATS4rCB3Ql3C5zq?usp=drive_link';
+        },
+      },
+      {
+        title: 'Physics Lab-II',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1E1c1yNaO2q3M4slB79qmGimPjVLqZ_Jn?usp=drive_link';
+        },
+      },
+      {
+        title: 'Misc',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1zaafSaFZzTg-7Se78QY1uaEihQoF47CN?usp=drive_link';
+        },
+      },
+      
+      // Add more service data here...
+    ]);
+  };
+
+
+
+
+  const SemIII = () => {
+    setTitle('BSc [H] Physics - SEM-III');
+    setServicesData([
+      {
+        title: 'Analog Electronics',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1APNwE1z1tBOUHMq9hwJYlHAVCaRHIyU8?usp=share_link';
+        },
+      },
+      {
+        title: 'Classical Mechanics',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1AQ8Y9rOuvqJ-Jr5fnKLT9PCu5iiu7_Fd?usp=drive_link';
+        },
+      },
+      {
+        title: 'Electricity and Magnetism',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1As22ElPFJwO7IoBLILQJGTMYTRpchWgf?usp=drive_link';
+        },
+      },
+      {
+        title: 'Applied Mathematics-III',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1B6PgwPuF1dLkt1xj4Z6YQuuarKp0lUUp?usp=drive_link';
+        },
+      },
+      {
+        title: 'PY-QPaper',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1BbEH5NwSYlYedaENUl1ntyssa7Boj5ml?usp=drive_link';
+        },
+      },
+      {
+        title: 'Physics Lab-III',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1B049VOu4aS5XZAlSSq6_6d1ngmWu2xiV?usp=drive_link';
+        },
+      },
+      {
+        title: 'Misc',
+        imageSrc: '1.png',
+        description: 'Get the necessary files Just In a Click',
+        link: () => {
+          window.location.href = 'https://drive.google.com/drive/folders/1N5bRB7-TyEh5U4VuuapFMAvGNbJtP6YI?usp=drive_link';
+        },
+      },
+      
+      // Add more service data here...
+    ]);
+  };
 
 
   const SemIV = () => {
@@ -224,140 +439,143 @@ const ServicesSection = () => {
 
 
 
-  const Engineering = () => {
-    setTitle('Engineering');
-    setServicesData([
-      {
-        title: 'Sem-III',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-IV',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-V',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-VI',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-III',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-IV',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-V',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-VI',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-III',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-IV',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-V',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-VI',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-III',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-IV',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-V',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      {
-        title: 'Sem-VI',
-        imageSrc: '2.png',
-        description: 'Get the necessary files Just In a Click',
-        link: () => {
-          window.location.href = 'https';
-        },
-      },
-      // Add more service data here...
-    ]);
-  };
+  // const Engineering = () => {
+  //   setTitle('Engineering');
+  //   setServicesData([
+  //     {
+  //       title: 'Sem-III',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-IV',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-V',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-VI',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-III',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-IV',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-V',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-VI',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-III',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-IV',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-V',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-VI',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-III',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-IV',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-V',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     {
+  //       title: 'Sem-VI',
+  //       imageSrc: '2.png',
+  //       description: 'Get the necessary files Just In a Click',
+  //       link: () => {
+  //         window.location.href = 'https';
+  //       },
+  //     },
+  //     // Add more service data here...
+  //   ]);
+  // };
+
+
+
 
   return (
     
