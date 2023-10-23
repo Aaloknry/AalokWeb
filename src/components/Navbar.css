@@ -1,0 +1,42 @@
+.navbar{
+    
+    background-color: rgba(0, 0, 0, 0.212);
+   
+}
+.navbar ul{
+    display: flex;
+    flex-direction: auto;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+/* 
+.container-fluid{
+    background-color: rgba(255, 255, 255, 0.082);
+        
+} */
+
+.navbar-nav ul li a{
+    -webkit-text-fill-color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.navbar-nav ul li a:hover{
+    -webkit-text-fill-color: black;
+    background-color: white;
+}
+
+.navbar-brand:hover{
+    position: relative;
+    transition-duration: 0.5s;
+    transform: rotatex(180deg);
+
+}

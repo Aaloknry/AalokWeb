@@ -1,36 +1,55 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import ServicesSection from './components/ServicesSection';
+import GoogleDriveViewer from './components/GoogleDriveViewer';
 
-function App() {
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyArPRD7PSo2AZYhvH3qt59GX2U6vcq9Stw",
+  authDomain: "amizone-f1022.firebaseapp.com",
+  projectId: "amizone-f1022",
+  storageBucket: "amizone-f1022.appspot.com",
+  messagingSenderId: "302743134357",
+  appId: "1:302743134357:web:fff91d0a9511eae2a87b9c",
+  measurementId: "G-KS7JPKF4PB"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+
+
+
+function App() { 
+  const folderLink = 'https://drive.google.com/drive/folders/1ZHTy4uDqdeltpuYq4hLnsXwJR99ToY2x?usp=sharing';
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container-fluid">
-    <a className="navbar-brand" href="/">
-      <img src="/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-top"/>
-       
-    </a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-        <a className="nav-link active" aria-current="page" href="/">Home</a>
-        <a className="nav-link" href="/">Features</a>
-        <a className="nav-link" href="/">Pricing</a>
-        <a className="nav-link disabled" aria-disabled="true" href="/">Disabled</a>
-      </div>
+    
+    <Navbar
+    b1='LMS'
+    b2='More'
+    />
+
+    <ServicesSection />
+    <div className="App">
+      <GoogleDriveViewer folderLink={folderLink} />
     </div>
-    <form class="d-flex">
-    <button class="btn btn-outline-success me-2" type="button">Main button</button>
-    <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
-  </form>
-  </div>
-  </nav>
     </>
   );
 }
 
 export default App;
+
+
 
 
 

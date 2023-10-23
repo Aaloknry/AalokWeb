@@ -1,0 +1,75 @@
+/* ServicesSection.css */
+#services-container {
+    margin: 50px;
+    display: flex;
+    -webkit-text-fill-color: white;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .services{
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+  
+  .box {
+    border: 2px solid rgba(218, 218, 218, 0.226);
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    margin-bottom: 30px;
+    background: rgba(46, 46, 46, 0.219);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .box img {
+    max-height: 160px;
+    margin: auto;
+    width: 100%;
+    object-fit:scale-down;
+    border-radius: 6px;
+  }
+  
+  .box p {
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .h-secondary {
+    color: white;
+    text-align: center;
+  }
+  
+  .btn2 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn2:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  
